@@ -27,6 +27,7 @@ public class NumSeven {
                 }
             }
         }
+        System.out.println("Новая строка без повторений и пробелов");
         System.out.println(stringBuilder.toString());
     }
 }
