@@ -20,6 +20,7 @@ public class NumTwo {
     public static void main(String[] args) {
         System.out.println("Введите строку");
         String str = UtilWorkingStringBuilder.stringInput();
+        System.out.println("Новая строка");
         System.out.println(boxB(str));
     }
 }
