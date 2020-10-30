@@ -27,6 +27,7 @@ public class NumFive {
             }
         }
         String line1 = strBuilder.toString();//StringBuilder переводим в строку
+        System.out.println("Новая строка");
         System.out.println(line1);
     }
 }
