@@ -6,7 +6,8 @@ public class NumFour {
 
     public static void main(String[] args) {
         String str = "информатика";
-        String line = str.substring(7, 8).concat(str.substring(3,5).concat(str.substring(7, 8)));
+        String line = str.substring(7, 8).concat(str.substring(3, 5).concat(str.substring(7, 8)));
         System.out.println(line);
     }
+
 }
