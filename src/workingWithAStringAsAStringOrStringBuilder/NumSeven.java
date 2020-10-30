@@ -10,7 +10,7 @@ public class NumSeven {
         System.out.println("Введите строку");
         String str = UtilWorkingStringBuilder.stringInput();
         StringBuilder stringBuilder = new StringBuilder();
-        //сначала удал все пробелы из строки
+        //сначала удалид все пробелы из строки
         for (int i = 0; i < str.length(); i++) {
             if (str.charAt(i) == ' ') {
                 stringBuilder.append("");
