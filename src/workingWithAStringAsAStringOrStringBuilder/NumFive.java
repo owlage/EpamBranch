@@ -15,4 +15,5 @@ public class NumFive {
         }
         System.out.println("Букв 'а' в строке = " + count);
     }
+
 }
