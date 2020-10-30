@@ -14,6 +14,7 @@ public class NumSix {
             }
         }
         line = stringBuilder.toString();
+        System.out.println("Новая строка, повторив символы дважды");
         System.out.println(line);
     }
 
