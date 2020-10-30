@@ -19,18 +19,19 @@ public class NumOne {
             StringBuilder strBuilder = new StringBuilder();
             for (int j = 0; j < array[i].length(); j++) {
                 ch = array[i].toCharArray()[j];//символ строки приводим к char
-                //определяем находится ли символ в нижнем регистре если да то возвращаем обновлённый обьект в strBuilder
+                //определяем находится ли символ в нижнем регистре если да то возвращаем обновлённый символ в strBuilder
                 if (Character.isLowerCase(ch) | Character.isDigit(ch)) {
                     strBuilder.append(ch);
-                } else { //если верхний регитр то возвращаем сначала "_", за тем переводим нижний регистр
+                } else { //если верхний регитр то возвращаем сначала "_", затем переводим нижний регистр
                     strBuilder.append("_");
                     strBuilder.append(Character.toLowerCase(ch));
                 }
             }
             array[i] = strBuilder.toString(); // в массив перезаписываем новые значения
         }
+        System.out.println("Названия переменых в snake_case ");
         for (String str : array) { // выводим массив array
-            System.out.println(str);
+            System.out.print(str);
         }
     }
 }
