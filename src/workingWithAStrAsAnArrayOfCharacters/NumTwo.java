@@ -6,6 +6,6 @@ public class NumTwo {
     public static void main(String[] args) {
         System.out.println("Введите строку");
         String str = Util.stringInput();
-        System.out.println(str.replace("word", "letter"));
+        System.out.println("Новая строка" + str.replace("word", "letter"));
     }
 }
