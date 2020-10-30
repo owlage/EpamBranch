@@ -16,4 +16,5 @@ public class NumSix {
         line = stringBuilder.toString();
         System.out.println(line);
     }
+
 }
