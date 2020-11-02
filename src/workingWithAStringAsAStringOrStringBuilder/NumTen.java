@@ -17,7 +17,7 @@ public class NumTen {
                 offers++;
             }
         }
-        if (!str.endsWith(".") || !str.endsWith("!") || str.endsWith("?")){
+        if (!str.endsWith(".") || !str.endsWith("!") || !str.endsWith("?")){
             offers++;
             System.out.println("В конце строки вы не поставили симпол '.' или '!' или '?'");
         }
