@@ -7,28 +7,27 @@ public class Test1 {
     static int numOne;
     static int numTwo;
 
-    static void outputOnDisplay(){
+    static void outputOnDisplay() {
         System.out.println(numOne);
         System.out.println(numTwo);
     }
 
-    static void setChange1(int numberOne){
+    static void setChange1(int numberOne) {
         numOne = numberOne;
     }
 
-    static void setChange2(int numberTwo){
+    static void setChange2(int numberTwo) {
         numTwo = numberTwo;
     }
 
-    static int sum(int numberOne, int numberTwo){
+    static int sum(int numberOne, int numberTwo) {
         return numberOne + numberTwo;
     }
 
-    static int greatest(int numberOne, int numberTwo){
-        if(numberOne > numberTwo){
+    static int greatest(int numberOne, int numberTwo) {
+        if (numberOne > numberTwo) {
             return numberOne;
-        }
-        else if(numberOne < numberTwo){
+        } else if (numberOne < numberTwo) {
             return numberTwo;
         } else {
             return 0;
@@ -46,7 +45,7 @@ public class Test1 {
         System.out.println("Сумма чисел");
         System.out.println(sum(numOne, numTwo));
         System.out.println("Наибольшее из чисел");
-        if(greatest(numOne, numTwo) == 0){
+        if (greatest(numOne, numTwo) == 0) {
             System.out.println("Числа равны");
         } else {
             System.out.println(greatest(numOne, numTwo));
