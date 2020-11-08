@@ -25,6 +25,10 @@ public class UtilSimplClassAndObj {
         if(sc.hasNextLine()){
             str = sc.nextLine();
             str = str.replaceAll("[^А-Яа-я]","");
+            if(str.isEmpty()){
+                System.out.println("Вы ввели пустую строку");
+                strInput();
+            }
         } else {
             strInput();
         }
