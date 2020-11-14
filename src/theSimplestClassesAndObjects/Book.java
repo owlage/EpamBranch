@@ -217,7 +217,7 @@ class Books {
         Book[] books1 = Arrays.copyOf(books, books.length);
         for (int i = 0; i < books1.length; i++) {
             for (String str1 : books1[i].getAuthor()) {
-                if (str.equals(str1)) {
+                if (str.equalsIgnoreCase(str1)) {
                     books1[i].print();
                 }
             }
@@ -227,7 +227,7 @@ class Books {
     void publishingHousesOutput(String str) {
         Book[] books2 = Arrays.copyOf(books, books.length);
         for (int i = 0; i < books2.length; i++) {
-            if (str.equals(books2[i].getPublishingHouses())) {
+            if (str.equalsIgnoreCase(books2[i].getPublishingHouses())) {
                 books2[i].print();
             }
         }
