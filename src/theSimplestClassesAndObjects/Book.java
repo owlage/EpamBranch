@@ -159,7 +159,7 @@ public class Book {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите название книги");
         book.bookName = strInput();
-        System.out.println("Введите фамилию авторов через 'пробел'");
+        System.out.println("Введите фамилии авторов через 'пробел'");
         String strAuthor = strInput();
         book.author = strAuthor.split(" ");
         System.out.println("Введите издательство");
@@ -214,6 +214,8 @@ class Books {
     }
 
     void authorOutput(String str) {
+        int length = books.length;
+        Book [] arr = Arrays.copyOf(books, length);
         Book[] books1 = Arrays.copyOf(books, books.length);
         for (int i = 0; i < books1.length; i++) {
             for (String str1 : books1[i].getAuthor()) {
