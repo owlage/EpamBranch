@@ -11,7 +11,7 @@ public class Program {
 
 
     private void showMenu() {
-        System.out.println("Ввудите название страны и столицу через enter");
+        System.out.println("Введите название страны и столицу через enter");
         Scanner sc = new Scanner(System.in);
 
         Country country = new Country(sc.nextLine(), sc.nextLine());
