@@ -1,4 +1,4 @@
-package theSimplestClassesAndObjects;
+package util;
 
 import java.util.Scanner;
 import java.util.regex.Matcher;

@@ -6,7 +6,7 @@ public class Program {
     private Country country;
 
     public static void main(String[] args) {
-
+        new Program().showMenu();
     }
 
 

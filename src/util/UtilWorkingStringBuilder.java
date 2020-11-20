@@ -1,4 +1,4 @@
-package workingWithAStringAsAStringOrStringBuilder;
+package util;
 
 import java.util.Scanner;
 
